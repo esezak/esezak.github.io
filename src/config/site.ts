@@ -11,7 +11,7 @@ export const SITE_CONFIG = {
   description:
     "Personal portfolio showcasing projects, skills, and experience in software engineering, computer vision, and machine learning.",
   /** Base URL of the deployed site. */
-  baseUrl: "https://esezak.io",
+  baseUrl: "https://esezak.github.io",
 } as const;
 
 /**
@@ -30,7 +30,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     platform: "Website",
-    url: "https://esezak.io",
+    url: "https://esezak.github.io",
     icon: "FaGlobe",
   },
   {
