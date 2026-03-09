@@ -1,0 +1,105 @@
+Ege Sezak
+
+Software Engineer
+(cid:97) esezak | (cid:93) Ege Sezak | (cid:231) esezak.io | (cid:263) egesezaki03@gmail.com | (cid:294) +90 545 711 68 02
+
+PROFILE SUMMARY
+
+As a senior Software Engineering student at Izmir University of Economics, I specialize in de-
+veloping high performance solutions across mobile application architectures, computer vi-
+sion, and deep learning. Highly adaptable to emerging technologies, I actively build projects
+that integrate machine learning models into edge devices and develop autonomous systems
+focused on environmental sustainability. I am an analytical problem solver, highly proficient
+in Agile/Scrum methodologies, and a strong collaborative team player.
+
+EDUCATION
+
+2022 – 2026 Izmir University of Economics – B.S. in Software Engineering (GPA: 3.1/4.0)
+2019 – 2022 Deneyap Technology Workshop – Advanced Technology Education Program
+2018 – 2022 Private Bilfen Science High School – High School Education
+
+PROFESSIONAL EXPERIENCE
+
+Agrobest Group | SAP Software Intern
+- Developed a centralized ERP automation system using SAP ABAP to track employee lifecy-
+
+June 2025 – July 2025
+
+cle events (onboarding, role changes, resignations) in real time.
+
+- Designed an integrated communication module using an event driven architecture that
+triggers automated email notifications to relevant departments during critical HR pro-
+cesses, significantly minimizing operational errors.
+
+PROȷECTS PORTFOLIO
+
+AI Powered Autonomous Waste Classification (Bachelor’s Thesis)
+
+Ongoing
+
+An ongoing, sustainability-focused machine learning research project that integrates com-
+puter vision with Large Language Models (LLMs) to classify recyclable waste on industrial
+conveyor belts in real time with high accuracy.
+
+Skin Detect Application and CNN Model
+
+2025
+
+An edge computing powered mobile diagnostic app capable of detecting over 20 dermato-
+logical conditions in milliseconds. The backend is trained on 20,000+ medical images using
+PyTorch and Ultralytics YOLO, with prediction accuracy further optimized via dynamic patient
+questionnaires. [App Source Code] | [Model Source Code]
+
+Barwise: Social Cocktail Recipe Sharing Platform
+
+2025
+
+A social recipe-sharing application featuring a rich UI/UX, built with Dart and Flutter. It lever-
+ages asynchronous data streams and modern state management architectures for seamless
+performance. [Source Code]
+
+MovieSync
+
+2024
+
+A dynamic movie and tv show tracking platform that allows users to build personalized movie
+and tv show libraries via modern API integrations, synchronize their watch histories, and
+seamlessly manage their favorite content. [Source Code]
+
+Hotel Scraper
+
+2024
+
+An automated data mining tool built with Python and BeautifulSoup to extract hotel meta-
+data from Booking.com. Unstructured data is cleaned, processed, and presented through a
+user-friendly graphical interface. [Source Code]
+
+TECHNICAL SKILLS AND TOOLS
+
+Programming Languages
+
+Python, Java, C#, Dart, TypeScript, JavaScript, SQL, MAT-
+LAB
+PyTorch, Ultralytics YOLO, MATLAB Image Toolkit
+
+DevOps and Tools
+
+AI and Computer Vision
+Frameworks and Architectures Flutter, Node.js, React, .NET, Java Socket, Asynchronous
+I/O, Java Swing, Unity
+Git, Docker, GitHub, Linux, Windows, VS Code, JetBrains
+IDEs, Blender
+Object-Oriented Programming (OOP), Algorithm Design,
+Data Structures, Design Patterns, AGILE/SCRUM, Web
+Scraping
+Turkish (Native), English (C2 - Proficient), German (A1)
+Skiing, Playing Guitar, Reading
+
+Methodology and Design
+
+Languages
+Interests
+
+Last Updated: March 9, 2026
+
+

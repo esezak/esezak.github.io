@@ -1,0 +1,152 @@
+/* Global styles — CSS reset, theme colour tokens, and base typography. */
+
+/* ─── Google Font ─── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* ─── CSS Reset ─── */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--accent-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent-secondary);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* ─── Dark Theme (JetBrains Darcula-inspired) — DEFAULT ─── */
+:root,
+[data-theme="dark"] {
+  --bg-primary: #1e1f22;
+  --bg-secondary: #2b2d30;
+  --bg-tertiary: #393b40;
+  --text-primary: #dfe1e5;
+  --text-secondary: #9da0a8;
+  --accent-primary: #6b9fed;
+  --accent-secondary: #c77dbb;
+  --accent-success: #6aab73;
+  --accent-warning: #e8bf6a;
+  --accent-error: #f75464;
+  --border: #43454a;
+  --shadow: rgba(0, 0, 0, 0.4);
+  --glass: rgba(30, 31, 34, 0.85);
+}
+
+/* ─── Light Theme ─── */
+[data-theme="light"] {
+  --bg-primary: #f7f8fa;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #e8eaed;
+  --text-primary: #1e1f22;
+  --text-secondary: #5e6168;
+  --accent-primary: #3574e0;
+  --accent-secondary: #a854a0;
+  --accent-success: #4a8c57;
+  --accent-warning: #c49a3a;
+  --accent-error: #d93848;
+  --border: #d1d3d8;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --glass: rgba(247, 248, 250, 0.85);
+}
+
+/* ─── Typography ─── */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+
+p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+/* ─── Utility Classes ─── */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 12px;
+  color: var(--text-primary);
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 48px;
+}
+
+.accent-text {
+  color: var(--accent-primary);
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 768px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.25rem; }
+
+  .section {
+    padding: 60px 0;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+}

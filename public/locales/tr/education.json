@@ -1,0 +1,21 @@
+{
+  "title": "Eğitim",
+  "subtitle": "Akademik geçmişim",
+  "items": {
+    "edu1": {
+      "institution": "İzmir Ekonomi Üniversitesi",
+      "degree": "Yazılım Mühendisliği Lisans",
+      "description": "Güncel Ortalamam (GPA): 3.1/4.0."
+    },
+    "edu2": {
+      "institution": "Deneyap Teknoloji Atölyesi",
+      "degree": "İleri Teknoloji Eğitim Programı",
+      "description": "İleri düzey teknoloji eğitim programına katıldım."
+    },
+    "edu3": {
+      "institution": "Özel Bilfen Fen Lisesi",
+      "degree": "Lise Eğitimi",
+      "description": "Fen ve matematik alanlarında güçlü bir temel ile mezun oldum."
+    }
+  }
+}

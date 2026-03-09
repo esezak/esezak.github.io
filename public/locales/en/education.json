@@ -1,0 +1,21 @@
+{
+  "title": "Education",
+  "subtitle": "My academic background",
+  "items": {
+    "edu1": {
+      "institution": "Izmir University of Economics",
+      "degree": "B.S. in Software Engineering",
+      "description": "Current GPA: 3.1/4.0."
+    },
+    "edu2": {
+      "institution": "Deneyap Technology Workshop",
+      "degree": "Advanced Technology Education Program",
+      "description": "Participated in an advanced technology education program."
+    },
+    "edu3": {
+      "institution": "Private Bilfen Science High School",
+      "degree": "High School Education",
+      "description": "Graduated with a strong foundation in science and mathematics."
+    }
+  }
+}

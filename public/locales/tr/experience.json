@@ -1,0 +1,11 @@
+{
+  "title": "Deneyim",
+  "subtitle": "Çalıştığım yerler",
+  "items": {
+    "exp1": {
+      "company": "Agrobest Grup",
+      "role": "SAP Yazılım Stajyeri",
+      "description": "SAP ABAP altyapısı kullanılarak, kurum içi personel hareketliliğini anlık olarak takip eden merkezi bir ERP otomasyon sistemi geliştirdim. Olay odaklı mimari kullanılarak, kritik insan kaynakları süreçlerinde ilgili departmanlara otomatik uyarı e-postaları tetikleyen bir iletişim modülü tasarladım."
+    }
+  }
+}

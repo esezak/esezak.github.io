@@ -1,0 +1,26 @@
+{
+  "title": "Projeler",
+  "subtitle": "Geliştirdiğim bazı projeler",
+  "items": {
+    "waste-classification": {
+      "title": "Yapay Zeka Destekli Otonom Atık Sınıflandırma",
+      "description": "Bilgisayarlı görü sistemleri ile Büyük Dil Modellerini (LLM) entegre ederek, endüstriyel geri dönüşüm bantlarındaki atıkların gerçek zamanlı ve yüksek doğrulukla sınıflandırılmasını hedefleyen, çevre sürdürülebilirliği odaklı araştırma projesi."
+    },
+    "skin-detect": {
+      "title": "Skin Detect Uygulaması ve CNN Modeli",
+      "description": "Uç bilişim destekli, 20'den fazla dermatolojik rahatsızlığı milisaniyeler içinde tespit edebilen mobil teşhis uygulaması. Arka plan mimarisi 20.000'i aşkın medikal görüntü kullanılarak eğitilmiştir."
+    },
+    "barwise": {
+      "title": "Barwise: Sosyal Kokteyl Tarifi Paylaşımı",
+      "description": "Dart ve Flutter kullanılarak geliştirilen, asenkron veri akışı ve modern durum yönetimi mimarilerini barındıran, zengin arayüzlü sosyal tarif paylaşım uygulaması."
+    },
+    "moviesync": {
+      "title": "MovieSync",
+      "description": "Kullanıcıların modern API entegrasyonları ile film kütüphaneleri oluşturmasını, kişisel izleme geçmişlerini senkronize etmesini ve favori içeriklerini yönetmesini sağlayan dinamik izleme platformu."
+    },
+    "hotel-scraper": {
+      "title": "Hotel Scraper",
+      "description": "Python ve BeautifulSoup kullanılarak Booking.com üzerinden otel meta-verilerini otomatize şekilde toplayan veri madenciliği aracı. Veriler temizlenerek kullanıcı dostu bir grafik arayüz ile görselleştirilmiştir."
+    }
+  }
+}

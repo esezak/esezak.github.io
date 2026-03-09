@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "about": "Hakkımda",
+    "skills": "Yetenekler",
+    "projects": "Projeler",
+    "experience": "Deneyim",
+    "education": "Eğitim",
+    "contact": "İletişim"
+  },
+  "footer": {
+    "copyright": "© {year} Ege. Tüm hakları saklıdır."
+  },
+  "buttons": {
+    "viewProject": "Projeyi Görüntüle",
+    "viewCode": "Kaynak Kod",
+    "downloadResumeEN": "Özgeçmiş (EN)",
+    "downloadResumeTR": "Özgeçmiş (TR)",
+    "present": "Devam Ediyor"
+  }
+}

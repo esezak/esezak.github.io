@@ -1,0 +1,12 @@
+{
+  "title": "Yetenekler",
+  "subtitle": "Çalıştığım teknolojiler, araçlar ve metodolojiler",
+  "categories": {
+    "languages": "Programlama Dilleri",
+    "ai": "Yapay Zeka ve Görü",
+    "frameworks": "Çerçeve ve Mimariler",
+    "tools": "DevOps ve Araçlar",
+    "methods": "Metodoloji ve Tasarım",
+    "spoken_languages": "Dil Yeterliliği"
+  }
+}

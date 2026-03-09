@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "footer": {
+    "copyright": "© {year} Ege. All rights reserved."
+  },
+  "buttons": {
+    "viewProject": "View Project",
+    "viewCode": "Source Code",
+    "downloadResumeEN": "Resume (EN)",
+    "downloadResumeTR": "Resume (TR)",
+    "present": "Present"
+  }
+}

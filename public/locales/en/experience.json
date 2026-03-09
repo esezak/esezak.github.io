@@ -1,0 +1,11 @@
+{
+  "title": "Experience",
+  "subtitle": "Where I've worked",
+  "items": {
+    "exp1": {
+      "company": "Agrobest Group",
+      "role": "SAP Software Intern",
+      "description": "Developed a centralized ERP automation system using SAP ABAP to track employee lifecycle events (onboarding, role changes, resignations) in real time. Designed an integrated communication module using an event driven architecture that triggers automated email notifications to relevant departments during critical HR processes, significantly minimizing operational errors."
+    }
+  }
+}

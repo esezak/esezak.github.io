@@ -1,0 +1,26 @@
+{
+  "title": "Projects",
+  "subtitle": "Some things I've built",
+  "items": {
+    "waste-classification": {
+      "title": "AI Powered Autonomous Waste Classification",
+      "description": "An ongoing, sustainability-focused machine learning research project that integrates computer vision with Large Language Models (LLMs) to classify recyclable waste on industrial conveyor belts in real time with high accuracy."
+    },
+    "skin-detect": {
+      "title": "Skin Detect Application and CNN Model",
+      "description": "An edge computing powered mobile diagnostic app capable of detecting over 20 dermatological conditions in milliseconds. Trained on 20,000+ medical images using PyTorch and Ultralytics YOLO."
+    },
+    "barwise": {
+      "title": "Barwise: Social Cocktail Recipe",
+      "description": "A social recipe-sharing application featuring a rich UI/UX, built with Dart and Flutter. It leverages asynchronous data streams and modern state management architectures for seamless performance."
+    },
+    "moviesync": {
+      "title": "MovieSync",
+      "description": "A dynamic movie and tv show tracking platform that allows users to build personalized movie and tv show libraries via modern API integrations, synchronize their watch histories, and manage their content."
+    },
+    "hotel-scraper": {
+      "title": "Hotel Scraper",
+      "description": "An automated data mining tool built with Python and BeautifulSoup to extract hotel metadata from Booking.com. Unstructured data is cleaned, processed, and presented through a user-friendly graphical interface."
+    }
+  }
+}

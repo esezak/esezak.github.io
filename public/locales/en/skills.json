@@ -1,0 +1,12 @@
+{
+  "title": "Skills",
+  "subtitle": "Technologies, tools, and methodologies I work with",
+  "categories": {
+    "languages": "Programming Languages",
+    "ai": "AI and Computer Vision",
+    "frameworks": "Frameworks and Architectures",
+    "tools": "DevOps and Tools",
+    "methods": "Methodology and Design",
+    "spoken_languages": "Languages"
+  }
+}
