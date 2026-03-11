@@ -38,6 +38,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       { name: "Asynchronous I/O", icon: "none" },
       { name: "Java Swing", icon: "SiJava" },
       { name: "Unity", icon: "SiUnity" },
+      { name: "SAP ABAP", icon: "none" },
     ],
   },
   {
