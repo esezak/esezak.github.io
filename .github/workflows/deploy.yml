@@ -5,6 +5,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  repository_dispatch:
+    types: [cv_updated]
 
 permissions:
   contents: read
@@ -21,6 +23,23 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Check out published CVs
+        uses: actions/checkout@v4
+        with:
+          repository: esezak/autoCV
+          ref: build
+          token: ${{ secrets.AUTOCV_READ_TOKEN }}
+          path: .autocv-build
+          persist-credentials: false
+
+      - name: Install the latest CVs
+        run: |
+          test -s .autocv-build/Ege_Sezak_Resume_EN.pdf
+          test -s .autocv-build/Ege_Sezak_Resume_TR.pdf
+          mkdir -p public/resumes
+          cp .autocv-build/Ege_Sezak_Resume_EN.pdf public/resumes/
+          cp .autocv-build/Ege_Sezak_Resume_TR.pdf public/resumes/
 
       - name: Setup Node.js
         uses: actions/setup-node@v4

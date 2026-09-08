@@ -106,7 +106,7 @@ cv-site/
 | Skills                | `src/data/skills.ts` + locale JSON   |
 | Experience / Education | `src/data/experience.ts` + locale JSON |
 | Theme colours         | `src/styles/globals.css`             |
-| Resumes               | `public/resumes/`                    |
+| Resume sources        | Private `esezak/autoCV` repository  |
 
 ---
 
@@ -114,9 +114,12 @@ cv-site/
 
 1. **Create a GitHub repository** and push this code to the `main` branch.
 2. Go to **Settings → Pages → Source** and select **GitHub Actions**.
-3. The included `.github/workflows/deploy.yml` workflow will automatically
-   build and deploy on every push to `main`.
-4. Your site will be live at `https://<username>.github.io/<repo-name>/`.
+3. Add an Actions secret named `AUTOCV_READ_TOKEN`. Use a fine-grained token
+   restricted to `esezak/autoCV` with read-only Contents permission.
+4. The included `.github/workflows/deploy.yml` workflow deploys on pushes to
+   `main`, manual runs, and `cv_updated` events from `autoCV`. Every deployment
+   retrieves the latest successful English and Turkish PDFs before building.
+5. Your site will be live at `https://esezak.github.io/`.
 
 ---
 
