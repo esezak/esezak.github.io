@@ -138,4 +138,4 @@ cv-site/
 
 ## 📄 Licence
 
-MIT — feel free to fork and customise for your own portfolio.
+MIT — feel free to fork and customise for your own portfolio..
